@@ -1,6 +1,7 @@
 {
   "name": "system-z",
   "author": "Kody Puebla",
+  "publisher": "pueblakody",
   "displayName": "system-z",
   "description": "Syntax highlighting for COBOL System Z (Zortec)",
   "version": "0.2.0",
@@ -22,5 +23,9 @@
       "scopeName": "source.z",
       "path": "./syntaxes/z.tmLanguage.json"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pueblak/system-z.git"
   }
 }
