@@ -1,8 +1,9 @@
 {
   "name": "system-z",
+  "author": "Kody Puebla",
   "displayName": "system-z",
   "description": "Syntax highlighting for COBOL System Z (Zortec)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -12,7 +13,7 @@
   "contributes": {
     "languages": [{
       "id": "z",
-      "aliases": ["Z", "z"],
+      "aliases": ["z", "zortec", "system z", "system-z"],
       "extensions": [""],
       "configuration": "./language-configuration.json"
     }],
