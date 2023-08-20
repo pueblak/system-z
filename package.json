@@ -1,0 +1,25 @@
+{
+  "name": "system-z",
+  "displayName": "system-z",
+  "description": "Syntax highlighting for COBOL System Z (Zortec)",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "z",
+      "aliases": ["Z", "z"],
+      "extensions": [""],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "z",
+      "scopeName": "source.z",
+      "path": "./syntaxes/z.tmLanguage.json"
+    }]
+  }
+}

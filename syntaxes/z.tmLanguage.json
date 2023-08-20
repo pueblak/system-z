@@ -1,0 +1,109 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Z",
+	"patterns": [
+		{
+			"include": "#string"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#other"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#file"
+		},
+		{
+			"include": "#labels"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#special"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#punctuation"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.z",
+				"match": "(?i)(?<!-)\\b(ACCEPT|ADD|ADJ|ALC|ALPHABETIC|AND|ARM|AS|ASC(ENDING)?|AT|AUTHOR|BACKSPACE|BATCH|BEGIN|BOX|BY|CALL|CHAIN|CHAINR|CHANGE|CLOSE|COMPUTE|COPY|CR|CURSOR|DEC(ENDING|IMAL)?|DEF(INE)?|DELETE|DEPENDING\\s+ON|DISPLAY|DIVIDE|DOWN|ECHO|EDIT|ELSE|END|END-PERFORM|ENDEF|ENDIF|EOF|EOFXIT|EOJ|ERASE|ERROR|EOFXITFD|EQUALS?|EXIT|EXTEND|FD|FORWARDSPACE|FROM|GE|GEN|GIVING|GO(TO)?|GR|GRAPHICS|GREATER|HEX|HI(GH)?|I-O|IF|INDEX|INPUT|INSERT|INSPECT|INVALID|KEY|LAST|LE|LEFT|LESS|LET|LINE(LEN)?|LINK|LIST|LISTLJ|LIT|LOW?|MAP|MARGIN|MESSAGE|MOVE|MULTIPLY|NE|NEGATIVE|NEW|NEXT|NL|NOCHG|NOCLEAR|NOFLOAT|NOGP|NOHDR|NOIO|NOLINK|NORM|NOSCREEN|NOT|NUMERIC|OCCURS|OFF|OFFSET|ON|OPEN|OR|OUTPUT|PAGELEN|PASSWORD|PERFORM|POS(ITION)?|POSITIVE|PRINT|PROMPT|PROMPTS|READ|READL|READSC|RECLEN|REDEFINES?|REDISPLAY|RETRY|REWIND|REWRITE|RIGHT|RJ|ROUNDED|SCI|SECURE|SENTENCE|SET|SHOW|SIZE|SORT|SORTMEM|SPACES?|START|SUBTRACT|SVC|TAB|TABR|TAG|TALLYING|THAN|THROUGH|THRU|TRAILING|TRANSLATE|TO|UNLOCK|UNTIL|UP|USING|VARYING|VIA|WADSP|WARNING|WORK|WRITE|ZERO(E?S)?)\\b(?!-)"
+			}]
+		},
+		"string": {
+			"name": "string.quoted.single.z",
+			"begin": "'",
+			"end": "'"
+		},
+		"strings": {
+			"name": "string.quoted.double.z",
+			"begin": "\"",
+			"end": "\""
+		},
+		"comments": {
+			"name": "comment.line.z",
+			"match": "(^\\*.*$)|(\\s:\\s*.*$)"
+		},
+		"numbers": {
+			"name": "constant.numeric.z",
+			"match": "(?i)(?<!\\w)-?\\+?\\b(\\d+((\\.|,)\\d+)*)\\b(?!-)"
+		},
+		"variables": {
+			"name": "variable.other.z",
+			"match": "\\b[\\w-]+\\b"
+		},
+		"labels": {
+			"name": "entity.name.function.z",
+			"match": "(?im)\\b(\\d+-[\\w-]+)|((?<=((GO(\\s*TO)?)|(PERFORM))\\s+)[\\w-]+)|(^[\\w-]+(?=\\.))|((?<=TAG\\s+)[\\w-]+)|((?<=PERFORM\\s+[\\w-]+\\s+(THRU|THROUGH)\\s+)[\\w-]+)\\b",
+			"patterns": [
+				{
+					"includes": "#keywords"
+				}
+			]
+		},
+		"operators": {
+			"name": "keyword.control.less.z",
+			"match": "(?i)(?<!-)(\\+|\\s(-|\\*)\\s|/|=|>|<|>=|<=|\\b(AND|OR|NOT|XOR|GREATER|LESS|EQUAL|THAN|GT|LT|EQ|LE|GE|NE)\\b)(?!-)"
+		},
+		"types": {
+			"name": "entity.name.type.z",
+			"match": "(?i)(?<=(DEF\\s+)?[\\w-]+\\s+)\\b(GP|BI|AN|UN|SN|SP|UP)(?=\\s*((\\s+:.*)?$|\\s\\d+))\\b"
+		},
+		"special": {
+			"name": "constant.character.special.z",
+			"match": "(?i)(?<=CALL\\s+)\\b[\\w$-]+\\b"
+		},
+		"file": {
+			"name": "constant.character.file.z",
+			"match": "(?i)(?<=^FD\\s+)\\b[\\w-]+\\b"
+		},
+		"other": {
+			"name": "constant.character.other.z",
+			"match": "(?i)(>\\b[\\w-]+)|(\\b0B)\\b"
+		},
+		"punctuation": {
+			"name": "punctuation.terminator.z",
+			"match": "\\.|,"
+		}
+	},
+	"scopeName": "source.z"
+}
