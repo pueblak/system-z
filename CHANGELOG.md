@@ -22,3 +22,4 @@ All notable changes to the "system-z" extension will be documented in this file.
 ### [0.2.3]
 
 - Added missing keywords
+- Allow whitespace before comments

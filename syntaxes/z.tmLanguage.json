@@ -65,7 +65,7 @@
 		},
 		"comments": {
 			"name": "comment.line.z",
-			"match": "(^\\*.*$)|(\\s:\\s*.*$)"
+			"match": "(^\\s*\\*.*$)|(\\s:\\s*.*$)"
 		},
 		"numbers": {
 			"name": "constant.numeric.z",
