@@ -17,4 +17,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 ### [0.2.2]
 
+- Minor updates to metadata
+
+### [0.2.3]
+
 - Added missing keywords
