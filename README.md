@@ -1,4 +1,4 @@
-# system-z Visual Studio Extension
+# System Z Visual Studio Extension
 
 ### Description:
 The "system-z" extension is designed specifically for Visual Studio, offering advanced support for the [System Z](https://www.support.zortec.com/systemz.html) programming language.
