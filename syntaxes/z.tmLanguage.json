@@ -27,7 +27,7 @@
 			"include": "#file"
 		},
 		{
-			"include": "#labels"
+			"include": "#tags"
 		},
 		{
 			"include": "#types"
@@ -75,9 +75,9 @@
 			"name": "variable.other.z",
 			"match": "\\b[\\w-]+\\b"
 		},
-		"labels": {
+		"tags": {
 			"name": "entity.name.function.z",
-			"match": "(?im)\\b(\\d+-[\\w-]+)|((?<=((GO(\\s*TO)?)|(PERFORM)|(RETRY))\\s+)[\\w-]+)|(^[\\w-]+(?=\\.))|((?<=^(TAG\\s+)?)[\\w-]+)|((?<=PERFORM\\s+[\\w-]+\\s+(THRU|THROUGH)\\s+)[\\w-]+)\\b",
+			"match": "(?im)\\b(\\d+-[\\w-]+)|((?<=((GO(\\s*TO)?)|(PERFORM)|(RETRY))\\s+)[\\w-]+)|(^[\\w-]+(?=\\.))|((?<=^(TAG\\s+)?)[\\w-]+\\.?\\s*$)|((?<=PERFORM\\s+[\\w-]+\\s+(THRU|THROUGH)\\s+)[\\w-]+)\\b",
 			"patterns": [
 				{
 					"includes": "#keywords"
