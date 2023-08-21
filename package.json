@@ -2,9 +2,9 @@
   "name": "system-z",
   "author": "Kody Puebla",
   "publisher": "pueblakody",
-  "displayName": "system-z",
+  "displayName": "System Z",
   "description": "Syntax highlighting for COBOL System Z (Zortec)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.81.0"
   },
