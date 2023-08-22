@@ -4,7 +4,7 @@
   "publisher": "pueblakody",
   "displayName": "System Z",
   "description": "Syntax highlighting for System Z (Zortec)",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -19,7 +19,7 @@
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "z",
+      "language": "Z",
       "scopeName": "source.z",
       "path": "./syntaxes/z.tmLanguage.json"
     }]

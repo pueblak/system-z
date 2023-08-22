@@ -27,3 +27,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 ### [0.2.4]
 
 - Fix incorrect highlighting for tags
+
+### [0.2.5]
+
+- Modified highlighting of hexadecimal values
+- Added "PREV" keyword
