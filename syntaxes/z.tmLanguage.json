@@ -90,7 +90,7 @@
 		},
 		"types": {
 			"name": "entity.name.type.z",
-			"match": "(?i)(?<=((RE)?DEF(INE)?\\s+)?[\\w-]+\\s+)\\b(GP|BI|SB|AN|UN|SN|SP|UP|DEC|RECLEN|OCCURS)(?=\\s*((\\s+:.*)?$|\\s\\d+))\\b"
+			"match": "(?i)(?<=((RE)?DEF(INE)?\\s+)?[\\w-]+\\s+)\\b(GP|BI|SB|AN|UN|SN|SP|UP|DEC|RECLEN|OCCURS|TIMES)(?=\\s*((\\s+:.*)?$|\\s\\d+))\\b"
 		},
 		"special": {
 			"name": "constant.character.special.z",
