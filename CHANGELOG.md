@@ -28,7 +28,17 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 - Fix incorrect highlighting for tags
 
-### [0.2.5]
+## [0.3.0]
 
 - Modified highlighting of hexadecimal values
-- Added "PREV" keyword
+- Added more missing keywords
+- When at the beginning of a line, '--' now denotes an inline comment
+
+### [0.3.1]
+
+- Moved RECLEN, DEC, OCCURS, and TIMES to "types" instead of "keywords"
+- Moved WADSP and WORK to "action keywords"
+
+### [0.3.1]
+
+-Move PASSWORD to "action keywords"
