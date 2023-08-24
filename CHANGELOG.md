@@ -36,10 +36,12 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 ### [0.3.1]
 
-- Moved RECLEN, DEC, OCCURS, and TIMES to "types" instead of "keywords"
+- Moved RECLEN, DEC, and OCCURS to "types" instead of "keywords"
 - Moved WADSP and WORK to "action keywords"
 
 ### [0.3.2]
 
 -Move PASSWORD to "action keywords"
 -Added keywords LPP, IOSTATUS
+-Move TIMES to "types" instead of "keywords"
+-Add temporary icon to project
