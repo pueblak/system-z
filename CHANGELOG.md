@@ -41,7 +41,11 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 ### [0.3.2]
 
--Move PASSWORD to "action keywords"
--Added keywords LPP, IOSTATUS
--Move TIMES to "types" instead of "keywords"
--Add temporary icon to project
+- Move PASSWORD to "action keywords"
+- Added keywords LPP, IOSTATUS
+- Move TIMES to "types" instead of "keywords"
+- Add temporary icon to project
+
+### [0.3.3]
+
+- Add AUTOFF to keywords
