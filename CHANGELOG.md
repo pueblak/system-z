@@ -46,6 +46,7 @@ All notable changes to the "system-z" extension will be documented in this file.
 - Move TIMES to "types" instead of "keywords"
 - Add temporary icon to project
 
-### [0.3.3]
+### [0.4.0]
 
-- Add AUTOFF to keywords
+- Add special highlighting for reserved datanames
+- Change highlighting for file declarations
