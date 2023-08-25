@@ -57,3 +57,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 - Move INPUT, OUTPUT, I-O, EXTEND, and TABR to "action keywords"
 - File names are now highlighted in ALL locations (not just at declaration)
 - Add special highlighting for CALLs, CHAINs, and CHAINRs
+
+### [0.5.1]
+
+- Add missing reserved datanames
+- Allow highlighting for COBOL field declarations
