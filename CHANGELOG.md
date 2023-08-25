@@ -46,7 +46,14 @@ All notable changes to the "system-z" extension will be documented in this file.
 - Move TIMES to "types" instead of "keywords"
 - Add temporary icon to project
 
-### [0.4.0]
+## [0.4.0]
 
 - Add special highlighting for reserved datanames
 - Change highlighting for file declarations
+- Removed "special" highlighting category
+
+## [0.5.0]
+
+- Move INPUT, OUTPUT, I-O, EXTEND, and TABR to "action keywords"
+- File names are now highlighted in ALL locations (not just at declaration)
+- Add special highlighting for CALLs, CHAINs, and CHAINRs

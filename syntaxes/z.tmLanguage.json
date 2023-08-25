@@ -33,6 +33,9 @@
 			"include": "#types"
 		},
 		{
+			"include": "#call"
+		},
+		{
 			"include": "#variables"
 		},
 		{
@@ -47,7 +50,7 @@
 			},
 			{
 				"name": "keyword.control.action.z",
-				"match": "(?i)(?<!\\w-)\\b(ACCEPT|ADD|ALC|ARM|AUTHOR|BOX|CALL|CHAINR?|CHANGE|CLOSE|COMPUTE|COPY|CURSOR|DEF(INE)?|DELETE|DISPLAY|DIVIDE|END-PERFORM|ENDEF|ERASE|ERROR|EOJ|EXIT|FD|GEN|GIVING|GO(\\s*TO)?|(?<=^\\s*)INDEX|(?<!OPEN\\s+)INPUT|INSERT|INSPECT|LET|LIST(LJ)?|(?<=^\\s*)LOCK|MAP|MARGIN|MESSAGE|MOVE|MULTIPLY|NEXT\\s+SENTENCE|OPEN|PASSWORD|PERFORM|PRINT|PROMPTS?|READ(L|SC)?(\\s+(NEXT|PREV))?|REDEFINE|REDISPLAY|RETRY|REWRITE|SCI|SET|SHOW|SORT(MEM)?|START|SUBTRACT|TAB|TRANSLATE|UNLOCK|WADSP|WORK|WRITE)\\b(?!-)"
+				"match": "(?i)(?<!\\w-)\\b(ACCEPT|ADD|ALC|ARM|AUTHOR|BOX|CALL|CHAINR?|CHANGE|CLOSE|COMPUTE|COPY|CURSOR|DEF(INE)?|DELETE|DISPLAY|DIVIDE|END-PERFORM|ENDEF|ERASE|ERROR|EOJ|EXIT|EXTEND|FD|GEN|GIVING|GO(\\s*TO)?|I-O|(?<=^\\s*)INDEX|INPUT|INSERT|INSPECT|LET|LIST(LJ)?|(?<=^\\s*)LOCK|MAP|MARGIN|MESSAGE|MOVE|MULTIPLY|NEXT\\s+SENTENCE|OPEN|OUTPUT|PASSWORD|PERFORM|PRINT|PROMPTS?|READ(L|SC)?(\\s+(NEXT|PREV))?|REDEFINE|REDISPLAY|RETRY|REWRITE|SCI|SET|SHOW|SORT(MEM)?|START|SUBTRACT|TABR?|TRANSLATE|UNLOCK|WADSP|WORK|WRITE)\\b(?!-)"
 			},
 			{
 				"name": "constant.regexp.z",
@@ -94,13 +97,28 @@
 			"match": "(?i)(?<=((RE)?DEF(INE)?\\s+)?[\\w-]+\\s+)\\b(GP|BI|SB|AN|UN|SN|SP|UP|DEC|RECLEN|OCCURS|TIMES)(?=\\s*((\\s+:.*)?$|\\s\\d+))\\b"
 		},
 		"file": {
-			"name": "variable.other.file.z",
-			"match": "(?i)(?<=^FD\\s+)\\b([\\w-]+)\\b",
-			"captures": {
-				"1": {
-					"name": "markup.bold"
+			"name": "entity.name.class.z",
+			"match": "(?i)(?<=^\\s*(FD|READL?(\\s+NEXT)?|START|INSERT|OPEN\\s+(INPUT|OUTPUT|I-O|EXTEND)|(RE)?WRITE|CLOSE|DELETE|(UN)?LOCK)\\s+)\\b([\\w-]+)\\b"
+		},
+		"call": {
+			"patterns": [{
+				"name": "constant.character.call.z",
+				"match": "(?i)(?<=^\\s*(CALL|CHAINR?)\\s+)\\b(S\\$[\\w-]+)\\b",
+				"captures": {
+					"2": {
+						"name": "markup.italic"
+					}
 				}
-			}
+			},
+			{
+				"name": "variable.other.call.z",
+				"match": "(?i)(?<=^\\s*(CALL|CHAINR?)\\s+)([\\w-]+)",
+				"captures": {
+					"2": {
+						"name": "markup.italic"
+					}
+				}
+			}]
 		},
 		"hex": {
 			"name": "string.regexp.z",
