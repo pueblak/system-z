@@ -62,3 +62,7 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 - Add missing reserved datanames
 - Allow highlighting for COBOL field declarations
+
+### [0.5.2]
+
+- Switched highlighting priorities to make things more accurate

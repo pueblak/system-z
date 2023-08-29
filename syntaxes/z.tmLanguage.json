@@ -15,6 +15,9 @@
 			"include": "#numbers"
 		},
 		{
+			"include": "#types"
+		},
+		{
 			"include": "#operators"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"include": "#tags"
-		},
-		{
-			"include": "#types"
 		},
 		{
 			"include": "#call"
