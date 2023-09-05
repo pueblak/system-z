@@ -65,3 +65,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 - Switched highlighting priorities to make things more accurate
 - Found most, if not all, of the programs that are packaged with Z
     - These are now all highlighted and italicized like the "S$" programs
+
+### [0.5.2]
+
+- Fixed some edge cases where TAGs were being highlighted incorrectly
+- Fixed an incomplete pattern for the GR (GRAPHICS) keyword
