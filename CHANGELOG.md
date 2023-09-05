@@ -60,9 +60,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 ### [0.5.1]
 
-- Add missing reserved datanames
+- Add MANY missing reserved datanames and keywords (hopefully for the final time)
 - Allow highlighting for COBOL field declarations
-
-### [0.5.2]
-
 - Switched highlighting priorities to make things more accurate
+- Found most, if not all, of the programs that are packaged with Z
+    - These are now all highlighted and italicized like the "S$" programs
