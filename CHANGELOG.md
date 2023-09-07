@@ -70,3 +70,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 - Fixed some edge cases where TAGs were being highlighted incorrectly
 - Fixed an incomplete pattern for the GR (GRAPHICS) keyword
+
+## [0.6.0]
+
+- Change the way CALLs and CHAINs are highlighted (ALL target programs are italicized)
+- Numbers now allow the sign at the end of the number
