@@ -75,3 +75,8 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 - Change the way CALLs and CHAINs are highlighted (ALL target programs are italicized)
 - Numbers now allow the sign at the end of the number
+
+### [0.6.1]
+
+- Changed the coloring of some keywords to be more accurate (UP, HOME, etc.)
+    - No new keywords were added, only recategorized
