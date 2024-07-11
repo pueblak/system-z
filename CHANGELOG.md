@@ -80,3 +80,7 @@ All notable changes to the "system-z" extension will be documented in this file.
 
 -   Changed the coloring of some keywords to be more accurate (UP, HOME, etc.)
     -   No new keywords were added, only recategorized
+
+### [0.6.2]
+
+-   Add new material icon to project
