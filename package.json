@@ -4,7 +4,7 @@
   "publisher": "pueblakody",
   "displayName": "System Z",
   "description": "Syntax highlighting for System Z (Zortec)",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.81.0"
