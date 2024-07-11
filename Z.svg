@@ -72,13 +72,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="Z"
+       transform="matrix(2.3833576,0,0,2.9421988,-46.29884,-172.16297)"
        id="text833"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835);fill:#9879ec;fill-opacity:1;stroke:none;filter:url(#filter1139);"
-       transform="matrix(2.3833576,0,0,2.9421988,-46.29884,-172.16297)"><tspan
-         x="22.677734"
-         y="67.864449"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Rockwell Extra Bold';-inkscape-font-specification:'Rockwell Extra Bold, Bold';fill:#9879ec;fill-opacity:1">Z</tspan></tspan></text>
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835);fill:#9879ec;fill-opacity:1;stroke:none;filter:url(#filter1139)">
+      <path
+         d="m 30.077776,67.864449 h -7.095152 v -1.643305 l 3.539825,-3.968737 h -1.798334 v 0.888832 h -1.648473 v -2.464958 h 6.976296 v 1.45727 l -3.720691,4.154772 h 2.072218 v -0.981849 h 1.674311 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Rockwell Extra Bold';-inkscape-font-specification:'Rockwell Extra Bold, Bold';fill:#9879ec;fill-opacity:1"
+         id="path838" />
+    </g>
   </g>
 </svg>
