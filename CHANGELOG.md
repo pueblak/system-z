@@ -84,3 +84,7 @@ All notable changes to the "system-z" extension will be documented in this file.
 ### [0.6.2]
 
 -   Add new material icon to project
+
+### [0.6.3]
+
+-   Update material icon

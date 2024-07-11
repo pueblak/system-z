@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -75,10 +75,10 @@
     <text
        xml:space="preserve"
        id="text833"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835);fill:#7d33e0;fill-opacity:1;stroke:none;filter:url(#filter1139);"
-       transform="matrix(2.9796457,0,0,3.6777572,-62.117193,-219.43757)"><tspan
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835);fill:#9879ec;fill-opacity:1;stroke:none;filter:url(#filter1139);"
+       transform="matrix(2.3833576,0,0,2.9421988,-46.29884,-172.16297)"><tspan
          x="22.677734"
          y="67.864449"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Rockwell Extra Bold';-inkscape-font-specification:'Rockwell Extra Bold,  Bold';fill:#7d33e0;fill-opacity:1">Z</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Rockwell Extra Bold';-inkscape-font-specification:'Rockwell Extra Bold, Bold';fill:#9879ec;fill-opacity:1">Z</tspan></tspan></text>
   </g>
 </svg>
