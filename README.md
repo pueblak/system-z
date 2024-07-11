@@ -1,4 +1,4 @@
-# system-z Visual Studio Extension
+# System Z Visual Studio Extension
 
 ### Description:
 
