@@ -4,7 +4,7 @@
   "publisher": "pueblakody",
   "displayName": "System Z",
   "description": "Syntax highlighting for System Z (Zortec)",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -14,9 +14,13 @@
   "contributes": {
     "languages": [{
       "id": "z",
-      "aliases": ["z", "zortec", "system z", "system-z"],
+      "aliases": ["z", "zortec", "system z", "system-z", "Z", "Zortec", "System Z"],
       "extensions": [""],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "dark": "./Z.svg",
+        "light": "./Z.svg"
+      }
     }],
     "grammars": [{
       "language": "z",
