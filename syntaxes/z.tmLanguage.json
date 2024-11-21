@@ -108,7 +108,7 @@
 		},
 		"tags": {
 			"name": "entity.name.function.tag.z",
-			"match": "(?im)\\b(\\d+-[\\w-]+)|((?<=((GO(\\s*TO)?)|(PERFORM)|(RETRY))\\s+)[\\w-]+)|(^([\\w-]+)(?=\\.))|((?<=^TAG\\s+)[\\w-]+\\.?(?=\\s|$))|((?<=\\s+(THRU|THROUGH)\\s+)[\\w-]+)\\b",
+			"match": "(?im)\\b(\\d+-[\\w-]+)|((?<=((GO(\\s*TO)?)|(PERFORM)|(RETRY))\\s+)(?!(VARYING|UNTIL)\\b)[\\w-]+)|(^([\\w-]+)(?=\\.))|((?<=^TAG\\s+)[\\w-]+\\.?(?=\\s|$))|((?<=\\s+(THRU|THROUGH)\\s+)[\\w-]+)\\b",
 			"captures": {
 				"9": {
 					"name": "entity.name.function.tag.z",

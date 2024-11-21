@@ -96,3 +96,7 @@ All notable changes to the "system-z" extension will be documented in this file.
 ### [0.6.5]
 
 -   Add new constant keyword "BACK"
+
+### [0.6.6]
+
+-   Fix highlighting for "PERFORM VARYING" and "PERFORM UNTIL" statements
